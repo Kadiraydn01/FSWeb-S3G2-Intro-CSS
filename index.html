@@ -4,38 +4,57 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap"
+      rel="stylesheet"
+    />
 
     <style type="text/css">
-      .header {
-        border-radius: 50%;
-        border: 2px;
-        height: 150px;
-        width: 150px;
-        margin: 40px;
-        float: left;
-      }
       .sağ {
-        width: 500px;
+        display: flex;
+        margin-left: 50px;
+      }
+      .orta2 {
+        align-items: center;
+        justify-content: center;
+        margin-right: 650px;
+        margin-left: 650px;
+      }
+      .orta {
+        background-color: #ddb9a3;
+        color: white;
+        margin-left: 75px;
+        margin-right: 75px;
+        height: 150px;
         text-align: center;
-        padding: 0 300px 0 500px;
       }
     </style>
   </head>
   <body>
-    <div>
-      <nav class="navbar">
-        <a class="a1" href="#">Gezinizi Planlayın</a>
-        <a class="a2" href="#">Bilgi edinin</a>
-        <a class="a3" href="#">Karşılaştırın </a>
-      </nav>
-    </div>
-    <div class="sağ">
-      <div><img class="header" src="assets/header_img.jpg" /></div>
-      <h1>Peri Bacaları Tanıtımı</h1>
-      <p>Gelin ve Nevşehir'in gizli güzelliklerini keşfedin.</p>
-      <p>Sürekli açık. Ziyaret için rezervasyona gerek yoktur.</p>
-    </div>
     <section>
+      <div>
+        <nav class="navbar">
+          <a class="a1" href="#">Gezinizi Planlayın</a>
+          <a class="a2" href="#">Bilgi edinin</a>
+          <a class="a3" href="#">Karşılaştırın </a>
+        </nav>
+      </div>
+    </section>
+    <section>
+      <div class="birles">
+        <div class="lanet">
+          <img class="header" src="assets/header_img.jpg" />
+        </div>
+        <div class="yenilik">
+          <h1>Peri Bacaları Tanıtımı</h1>
+          <p>Gelin ve Nevşehir'in gizli güzelliklerini keşfedin.</p>
+          <p>Sürekli açık. Ziyaret için rezervasyona gerek yoktur.</p>
+        </div>
+      </div>
+    </section>
+    <section class="orta">
       <div>
         <p>
           Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan
@@ -51,27 +70,38 @@
         </p>
       </div>
     </section>
-    <div>
-      <img src="assets/hot-air-balloon.svg" class="balon" />
-      <p>
-        Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak
-        hava balonları ile yapılan turlar. Her sabah gün doğumundan önce
-        yüzlerce sıcak hava balonlarından oluşan konvoy ile Kapadokya’nın eşsiz
-        güzellikteki manzaralarını havadan izlemek katılımcılar için gerçekten
-        olağanüstü ve rüya gibi bir deneyim.
-      </p>
-    </div>
-    <div>
-      <img src="assets/atv.svg" class="ATV" />
-      <p>
-        ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı
-        bir yoludur. Bölgenin eşsiz ve muhteşem vadileri, dünyanın en iyi ATV
-        turlarından birini deneyimlemenize fırsat verir. ATV turlarının herkes
-        için uygun bir aktivite olduğunu söylemeliyiz.
-      </p>
-    </div>
-
-    <img src="assets/footer_img.jpg" class="footer_img" />
-    Gezinizi Planlayın Bilgi edinin Karşılaştırın
+    <section>
+      <div>
+        <img src="assets/hot-air-balloon.svg" class="balon" />
+        <p class="orta2">
+          Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak
+          hava balonları ile yapılan turlar. Her sabah gün doğumundan önce
+          yüzlerce sıcak hava balonlarından oluşan konvoy ile Kapadokya’nın
+          eşsiz güzellikteki manzaralarını havadan izlemek katılımcılar için
+          gerçekten olağanüstü ve rüya gibi bir deneyim.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="atvyazı">
+        <img src="assets/atv.svg" class="ATV" />
+        <p>
+          ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı
+          bir yoludur. Bölgenin eşsiz ve muhteşem vadileri, dünyanın en iyi ATV
+          turlarından birini deneyimlemenize fırsat verir. ATV turlarının herkes
+          için uygun bir aktivite olduğunu söylemeliyiz.
+        </p>
+      </div>
+    </section>
+    <section>
+      <img src="assets/footer_img.jpg" class="footer_img" />
+      <div>
+        <nav class="navbar">
+          <a class="a1" href="#">Gezinizi Planlayın</a>
+          <a class="a2" href="#">Bilgi Edinin</a>
+          <a class="a3" href="#">Karşılaştırın </a>
+        </nav>
+      </div>
+    </section>
   </body>
 </html>

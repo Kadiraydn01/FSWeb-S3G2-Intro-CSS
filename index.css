@@ -1,5 +1,8 @@
+body {
+  font-family: "Chelsea Market", cursive;
+}
 .navbar {
-  height: 8vh;
+  height: 10vh;
   width: 100%;
   color: white;
   display: flex;
@@ -10,33 +13,80 @@
   border-radius: 20%;
   margin: 10px;
 }
+
 .a1 {
-  height: 50px;
+  height: 35px;
   border: 1px;
-  border-radius: 30px;
+  border-radius: 20px;
   width: 150px;
   background-color: #ff764e;
   color: white;
   text-decoration: none;
   text-align: center;
+  padding: 20px;
 }
 .a2 {
   background-color: #5ed3eb;
   color: white;
   text-decoration: none;
-  height: 50px;
+  height: 35px;
   border: 1px;
-  border-radius: 30px;
+  border-radius: 20px;
   width: 150px;
   text-align: center;
+  padding: 20px;
 }
 .a3 {
   background-color: #ffcd69;
   color: white;
   text-decoration: none;
-  height: 50px;
+  height: 35px;
   border: 1px;
-  border-radius: 30px;
+  border-radius: 20px;
   width: 150px;
+  text-align: center;
+  padding: 20px;
+}
+.balon {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.ATV {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer_img {
+  width: 100%;
+  height: 250px;
+  padding-bottom: 25px;
+}
+.atvyazı {
+  align-items: center;
+  justify-content: center;
+  margin-right: 650px;
+  margin-left: 650px;
+}
+.header {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.birles {
+  display: flex;
+}
+.lanet {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.yenilik {
+  margin-left: 450px;
+  margin-top: 30px;
   text-align: center;
 }
